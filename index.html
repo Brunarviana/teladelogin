@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="/teladelogin/assets/style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Cadastro</h1>
+    <form id="Registro">
+<div class="Formulario">
+    <label for="name"> Nome:</label>
+     <input type="text" id="name" name="name" required>
+    </div>
+    <div class="Formulario">
+    <label for="email"> Email</label>
+    <input type="email" id="email" name="email" required>
+    </div>
+    <div class="Formulario">
+    <label for="password"> Senha</label>
+    <input type="password" id="password" name="password" required>
+    <small id="passwordError" class="error"></small>
+    </div>
+<button type="submit">Cadastrar</button>
+</form>
+<p id="sucessomsg" class="sucess"></p>
+    <script src="/teladelogin/assets/script.js"></script>
+    </body>
+</html>
